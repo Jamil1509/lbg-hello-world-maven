@@ -9,7 +9,7 @@ pipeline {
             
             stage('Compile') {
                 steps {
-                    // Run Maven on a Unix agent.
+                    // Run Maven on a Unix agent..
                     sh "mvn clean compile"
                 }
             }
